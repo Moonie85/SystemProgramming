@@ -5,9 +5,7 @@ namespace MathApp
 {
     class Program
     {
-        // Импортируем функции из C++ DLL
-        // Порядок параметров: [DllImport("путь_к_dll")]
-        // CallingConvention = CallingConvention.Cdecl - используйте для C/C++ функций
+
 
         [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern double Add(double a, double b);

@@ -26,7 +26,7 @@ extern "C"
         if (b == 0.0)
         {
             // Возвращаем NaN безопасным способом
-            return NAN;  // Требует #include <cmath>
+            return NAN;  
         }
         return a / b;
     }
